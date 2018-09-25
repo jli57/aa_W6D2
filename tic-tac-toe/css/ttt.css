@@ -40,6 +40,11 @@
 body {
   text-align: center; 
   margin: 0 auto; 
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 46px; 
 }
 
 .grid {
