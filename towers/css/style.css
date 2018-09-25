@@ -1,0 +1,43 @@
+.rendered-disc {
+  background-color: gray; 
+  border-radius: 20px; 
+}
+
+.tower {
+  list-style: none;
+  /* background-color: gray; */
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 150px; 
+  border-bottom: 5px solid black; 
+  margin-right: 20px; 
+}
+
+
+.tower li {
+  /* list-style: none; */
+  text-align: center;
+  margin: 5px auto;
+  height: 30px;
+}
+
+.hanoi {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+
+ul, li {
+  margin: 0px;
+  padding: 0px;
+}
