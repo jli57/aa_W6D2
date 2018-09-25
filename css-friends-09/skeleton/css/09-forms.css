@@ -1,0 +1,51 @@
+.content-main {
+  display: flex;
+}
+
+.content-main li {
+  list-style: none; 
+  margin-top: 10px; 
+}
+
+.input {
+  background-color: lightgray;
+  margin:10px 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  border-radius: 6px;
+}
+
+.input-text {
+  background-color: white;
+  padding: 10px; 
+  border-radius: 5px; 
+}
+
+.input textarea {
+  height: 150px; 
+}
+
+.input label, div {
+  font-weight: bold; 
+  margin: 10px 0; 
+}
+
+#submit-button {
+  padding: 15px 20px; 
+  background-color: green; 
+  box-shadow: 3px 3px darkgreen; 
+  border-radius: 5px; 
+  color: white; 
+  margin-right: 10px; 
+}
+#submit-button:hover {
+  background-color: darkgreen; 
+}
+#cancel-button {
+  margin-left: 10px; 
+}
+#cancel-button:hover {
+  color: red; 
+}
